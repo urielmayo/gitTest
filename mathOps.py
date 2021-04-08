@@ -8,7 +8,10 @@ def prod(x,y):
 	return x*y
 
 def div(x,y):
-	return x/y
+	return x/
+
+def power(x,y):
+	return x**y
 
 def calculate(x1,x2,operation):
 	if operation == '+':
@@ -22,5 +25,7 @@ def calculate(x1,x2,operation):
 			return False
 		else:
 			return True, div(x1,x2)
+	elif operation == '**':
+		return power(x1,x2)
 	else:
 		return False
