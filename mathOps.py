@@ -8,7 +8,7 @@ def prod(x,y):
 	return x*y
 
 def div(x,y):
-	return x/
+	return x/y
 
 def power(x,y):
 	return x**y
