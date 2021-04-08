@@ -18,6 +18,9 @@ def calculate(x1,x2,operation):
 	elif operation == 'x':
 		return True, prod(x1,x2)
 	elif operation == '/':
-		return True, div(x1,x2)
+		if x2 == 0:
+			return False
+		else:
+			return True, div(x1,x2)
 	else:
 		return False
