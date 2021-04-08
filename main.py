@@ -16,3 +16,7 @@ status, result = mathOps.calculate(number1,number2,operation)
 
 if status:
     print(f"{number1} {operation} {number2} = {result}")
+else:
+    print("usted es un pelotudo")
+
+print("HASTA LUEGO")
