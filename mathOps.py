@@ -15,7 +15,7 @@ def calculate(x1,x2,operation):
 		return True, sum(x1, x2)
 	elif operation == '-':
 		return True, sub(x1,x2)
-	elif operation == 'x':
+	elif operation == 'x' or operation == "*":
 		return True, prod(x1,x2)
 	elif operation == '/':
 		if x2 == 0:
