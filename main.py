@@ -1,6 +1,6 @@
 import mathOps
 
-print("HOLA COMO ESTAS")
+print("HOLA COMO ESTAS!")
 x = 5
 y = 10
 
@@ -19,4 +19,4 @@ if status:
 else:
     print("usted es un pelotudo")
 
-print("HASTA LUEGO")
+print("HASTA LUEGO!")
