@@ -18,6 +18,8 @@ def calculate(x1,x2,operation):
 		return True, sum(x1, x2)
 	elif operation == '-':
 		return True, sub(x1,x2)
+	elif operation == '**':
+		return True, power(x1,x2)
 	elif operation == 'x' or operation == "*":
 		return True, prod(x1,x2)
 	elif operation == '/':
@@ -25,7 +27,5 @@ def calculate(x1,x2,operation):
 			return False
 		else:
 			return True, div(x1,x2)
-	elif operation == '**':
-		return power(x1,x2)
 	else:
 		return False
